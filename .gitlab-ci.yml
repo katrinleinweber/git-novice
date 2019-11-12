@@ -12,11 +12,15 @@ pages:
     - public
   only:
   - gh-pages
+  tags:
+  - swc-bb
 
 test:
   stage: test
   script:
   - bundle exec jekyll build -d test
+  tags:
+  - swc-bb
   artifacts:
     paths:
     - test

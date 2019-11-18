@@ -202,6 +202,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ~~~
 {: .output}
 
+> ## New commands in git version 2.23
+>
+> In case you see `git restore` in the above output instead of
+> `git checkout --`, worry not! It only means that your Git version is
+> very recent. Feel free to use that command in the following steps.
+{: .callout}
+
 We can put things back the way they were
 by using `git checkout`:
 
